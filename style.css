@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Glass+Antiqua&family=Playpen+Sans:wght@100&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #111; 
+}
+
+#container_login {
+    width: 300px;
+  height: 200px; 
+  background: linear-gradient(#333, #000); 
+  border-radius: 10px; 
+  color: #fff; 
+  text-align: center; 
+  padding: 20px; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+header {
+    background-color: #333; 
+    color: #fff; 
+    padding: 15px; 
+    text-align: center; 
+    position: fixed;
+    width: 100%; 
+    top: 0; 
+    z-index: 1000; 
+}
+
+#atde {
+    font-family: 'Glass Antiqua', cursive;
+    font-weight: normal;
+    font-size: 60px;
+    margin: 0;
+    padding: 15px;
+}
+
+#saida {
+    background-color: #ffffff;
+    color: #000;
+    padding: 7px 7px;
+    cursor: pointer;
+    border-radius: 4.5px;
+    border-style: none;
+    font-size: 15px;
+}
+
+#botoesContainer {
+    text-align: center;
+    margin-top: 10px; /* Ajuste conforme necessário */
+}
+
+#masculinoBtn,
+#femininoBtn,
+#elencoCompletoBtn {
+    background-color: white;
+    color: black;
+    font-size: 20px;
+    margin: 10px;
+    padding: 10px 16px;
+    border-style: none;
+    cursor: pointer;
+    border-radius: 15px;
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    max-width: 1200px;
+    margin: 120px auto 20px; /* Espaçamento abaixo do header */
+    background-color: #ccc;
+}
+
+.card {
+    width: calc(23% - 20px);
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+    background-color: white;
+}
+
+.card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+#loadingMessage {
+    margin-top: 20px;
+    display: none;
+}
